@@ -1,0 +1,1629 @@
+{
+    "date": "2020-02-03T17:51:26.525",
+    "categoryOptions": [
+        {
+            "code": "default",
+            "created": "2011-12-24T12:24:24.149",
+            "lastUpdated": "2016-04-12T20:37:48.414",
+            "name": "default",
+            "id": "xYerKDKCefk",
+            "shortName": "default",
+            "publicAccess": "rwrw----",
+            "user": {
+                "id": "GOLswS44mh8"
+            },
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "en_GB",
+                    "value": "default"
+                }
+            ],
+            "userAccesses": [],
+            "organisationUnits": []
+        }
+    ],
+    "programRuleActions": [
+        {
+            "created": "2019-11-29T07:27:44.689",
+            "lastUpdated": "2019-12-12T17:57:53.114",
+            "id": "e77FmENeKu7",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:length( #{XX TEST TEXT} )",
+            "evaluationTime": "ALWAYS",
+            "content": "Length",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "WtmqJRjX4z7"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-12-16T07:32:22.094",
+            "lastUpdated": "2019-12-22T06:46:50.977",
+            "id": "bq3OkXzn55H",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:inOrgUnitGroup( 'CHC' )",
+            "evaluationTime": "ALWAYS",
+            "content": "in CHC",
+            "location": "feedback",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "EiLEpBxFbjI"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T06:55:22.073",
+            "lastUpdated": "2019-12-12T17:57:16.821",
+            "id": "Dq0YsOwZlaz",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:round( #{XX TEST NUMBER} )",
+            "evaluationTime": "ALWAYS",
+            "content": "Round",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "xYNo0iYPzfA"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-12-16T07:38:31.633",
+            "lastUpdated": "2019-12-22T06:46:50.977",
+            "id": "HAZxfAT169E",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:hasUserRole('Ufph3mGRmMo')",
+            "evaluationTime": "ALWAYS",
+            "content": "is Superuser? ",
+            "location": "feedback",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "EiLEpBxFbjI"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T06:48:48.447",
+            "lastUpdated": "2019-12-12T17:51:07.269",
+            "id": "S48ou3HZGQE",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:monthsBetween( #{XX TEST DATE}, V{current_date} )",
+            "evaluationTime": "ALWAYS",
+            "content": "Months Between",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "cadUTK9RwLv"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-12-16T07:42:32.313",
+            "lastUpdated": "2019-12-22T06:46:50.977",
+            "id": "Thl9cTMlh3l",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:zScoreWFA( #{XX Age In Months},#{XX Weight},#{XX Gender})",
+            "evaluationTime": "ALWAYS",
+            "content": "ZWFA",
+            "location": "feedback",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "EiLEpBxFbjI"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T06:48:48.447",
+            "lastUpdated": "2019-12-12T17:51:07.269",
+            "id": "fQYzZZKrecj",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:yearsBetween( #{XX TEST DATE}, V{current_date} )",
+            "evaluationTime": "ALWAYS",
+            "content": "Years Between",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "cadUTK9RwLv"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T07:20:10.383",
+            "lastUpdated": "2019-12-12T17:57:16.821",
+            "id": "OEqzW2uZ5KG",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:oizp( #{XX TEST NUMBER} )",
+            "evaluationTime": "ALWAYS",
+            "content": "Oizp (0+ to 1)",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "xYNo0iYPzfA"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T07:27:44.689",
+            "lastUpdated": "2019-12-12T17:57:53.114",
+            "id": "DjQ7CkspwIN",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:left( #{XX TEST TEXT}, 3 )",
+            "evaluationTime": "ALWAYS",
+            "content": "Left (3)",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "WtmqJRjX4z7"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T06:55:22.072",
+            "lastUpdated": "2019-12-12T17:57:16.821",
+            "id": "lMj6prBmIT4",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:floor( #{XX TEST NUMBER} )",
+            "evaluationTime": "ALWAYS",
+            "content": "Floor",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "xYNo0iYPzfA"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T06:48:48.447",
+            "lastUpdated": "2019-12-12T17:51:07.269",
+            "id": "Ec4RfgogPFb",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:weeksBetween( #{XX TEST DATE}, V{current_date} )",
+            "evaluationTime": "ALWAYS",
+            "content": "Weeks Between",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "cadUTK9RwLv"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T06:55:22.072",
+            "lastUpdated": "2019-12-12T17:57:16.821",
+            "id": "IRgvKqIz4AF",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:ceil( #{XX TEST NUMBER} )",
+            "evaluationTime": "ALWAYS",
+            "content": "Ceil",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "xYNo0iYPzfA"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T07:20:10.383",
+            "lastUpdated": "2019-12-12T17:57:16.821",
+            "id": "GIFPeYs6bJy",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:zing( #{XX TEST NUMBER} )",
+            "evaluationTime": "ALWAYS",
+            "content": "Zing (- to 0)",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "xYNo0iYPzfA"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-12-12T17:56:02.835",
+            "lastUpdated": "2019-12-12T17:57:16.821",
+            "id": "k0f34DVRChf",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:zpvc(#{XX TEST NUMBER},-1,0,9 )",
+            "evaluationTime": "ALWAYS",
+            "content": "ZPVC (N,-1,0,9)",
+            "location": "feedback",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "xYNo0iYPzfA"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T07:27:44.689",
+            "lastUpdated": "2019-12-12T17:57:53.114",
+            "id": "flBvSMJ5gZ9",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:split( #{XX TEST TEXT}, ' ', 1 )",
+            "evaluationTime": "ALWAYS",
+            "content": "Split by \" \" [1]",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "WtmqJRjX4z7"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T07:21:17.621",
+            "lastUpdated": "2019-12-12T17:57:53.114",
+            "id": "NeskO7KK60N",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:concatenate( #{XX TEST TEXT}, #{XX TEST LONGTEXT})",
+            "evaluationTime": "ALWAYS",
+            "content": "Concatenate T & LT",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "WtmqJRjX4z7"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T07:27:44.689",
+            "lastUpdated": "2019-12-12T17:57:53.114",
+            "id": "cdYHRXFUiKS",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:substring( #{XX TEST TEXT}, 1,5)",
+            "evaluationTime": "ALWAYS",
+            "content": "Substring (1,5)",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "WtmqJRjX4z7"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T06:48:48.447",
+            "lastUpdated": "2019-12-12T17:51:07.269",
+            "id": "mLcSXJHlVWh",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:addDays( #{XX TEST DATE}, 10 )",
+            "evaluationTime": "ALWAYS",
+            "content": "+10 days",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "cadUTK9RwLv"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T06:48:48.447",
+            "lastUpdated": "2019-12-12T17:51:07.269",
+            "id": "d7PHK07noHp",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:daysBetween( #{XX TEST DATE}, V{current_date} )",
+            "evaluationTime": "ALWAYS",
+            "content": "Days Between",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "cadUTK9RwLv"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T07:27:44.689",
+            "lastUpdated": "2019-12-12T17:57:53.114",
+            "id": "frMQ5i5FiJn",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:right(#{XX TEST TEXT},3 )",
+            "evaluationTime": "ALWAYS",
+            "content": "Right (3)",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "WtmqJRjX4z7"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        },
+        {
+            "created": "2019-11-29T06:55:22.073",
+            "lastUpdated": "2019-12-12T17:57:16.821",
+            "id": "xAI4eXsJX7G",
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "data": "d2:modulus( #{XX TEST NUMBER} , 3 )",
+            "evaluationTime": "ALWAYS",
+            "content": "Modulus 3 (X%3)",
+            "location": "indicators",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "programRule": {
+                "id": "xYNo0iYPzfA"
+            },
+            "evaluationEnvironments": [
+                "ANDROID",
+                "WEB"
+            ]
+        }
+    ],
+    "programStageDataElements": [
+        {
+            "created": "2019-11-29T05:35:47.105",
+            "lastUpdated": "2019-12-22T06:40:30.265",
+            "id": "UB4wWsdcdom",
+            "displayInReports": true,
+            "skipSynchronization": false,
+            "renderOptionsAsRadio": false,
+            "compulsory": false,
+            "allowProvidedElsewhere": false,
+            "sortOrder": 3,
+            "allowFutureDate": false,
+            "programStage": {
+                "id": "akI9YIihP5Y"
+            },
+            "dataElement": {
+                "id": "doe1hnwq9bG"
+            }
+        },
+        {
+            "created": "2019-11-29T05:35:47.105",
+            "lastUpdated": "2019-12-22T06:40:30.265",
+            "id": "kFBikk4yxhd",
+            "displayInReports": false,
+            "skipSynchronization": false,
+            "renderOptionsAsRadio": false,
+            "compulsory": false,
+            "allowProvidedElsewhere": false,
+            "sortOrder": 5,
+            "allowFutureDate": false,
+            "programStage": {
+                "id": "akI9YIihP5Y"
+            },
+            "dataElement": {
+                "id": "si7ryvPK6xx"
+            }
+        },
+        {
+            "created": "2019-11-29T05:35:47.105",
+            "lastUpdated": "2019-12-22T06:40:30.265",
+            "id": "R6wgPtvWEun",
+            "displayInReports": true,
+            "skipSynchronization": false,
+            "renderOptionsAsRadio": false,
+            "compulsory": false,
+            "allowProvidedElsewhere": false,
+            "sortOrder": 1,
+            "allowFutureDate": false,
+            "programStage": {
+                "id": "akI9YIihP5Y"
+            },
+            "dataElement": {
+                "id": "UzrJK6lpRml"
+            }
+        },
+        {
+            "created": "2019-12-22T06:40:30.265",
+            "lastUpdated": "2019-12-22T06:40:30.265",
+            "id": "ECGeo4ArUbl",
+            "displayInReports": false,
+            "skipSynchronization": false,
+            "renderOptionsAsRadio": false,
+            "compulsory": false,
+            "allowProvidedElsewhere": false,
+            "sortOrder": 6,
+            "allowFutureDate": false,
+            "programStage": {
+                "id": "akI9YIihP5Y"
+            },
+            "dataElement": {
+                "id": "WJmYNM2KuQs"
+            }
+        },
+        {
+            "created": "2019-12-22T06:40:30.265",
+            "lastUpdated": "2019-12-22T06:40:30.265",
+            "id": "pri0efnkSVq",
+            "displayInReports": false,
+            "skipSynchronization": false,
+            "renderOptionsAsRadio": false,
+            "compulsory": false,
+            "allowProvidedElsewhere": false,
+            "sortOrder": 7,
+            "allowFutureDate": false,
+            "programStage": {
+                "id": "akI9YIihP5Y"
+            },
+            "dataElement": {
+                "id": "D4iTCSow5w7"
+            }
+        },
+        {
+            "created": "2019-11-29T05:35:47.105",
+            "lastUpdated": "2019-12-22T06:40:30.265",
+            "id": "m3qqi6TAswF",
+            "displayInReports": false,
+            "skipSynchronization": false,
+            "renderOptionsAsRadio": false,
+            "compulsory": false,
+            "allowProvidedElsewhere": false,
+            "sortOrder": 4,
+            "allowFutureDate": false,
+            "programStage": {
+                "id": "akI9YIihP5Y"
+            },
+            "dataElement": {
+                "id": "ILg4DHMISBc"
+            }
+        },
+        {
+            "created": "2019-11-29T05:35:47.105",
+            "lastUpdated": "2019-12-22T06:40:30.265",
+            "id": "LSgxUV6DqBE",
+            "displayInReports": true,
+            "skipSynchronization": false,
+            "renderOptionsAsRadio": false,
+            "compulsory": true,
+            "allowProvidedElsewhere": false,
+            "sortOrder": 2,
+            "allowFutureDate": false,
+            "programStage": {
+                "id": "akI9YIihP5Y"
+            },
+            "dataElement": {
+                "id": "gfSyMAyxsAj"
+            }
+        },
+        {
+            "created": "2019-12-22T06:40:30.265",
+            "lastUpdated": "2019-12-22T06:40:30.265",
+            "id": "EI4d8kwlL4i",
+            "displayInReports": false,
+            "skipSynchronization": false,
+            "renderOptionsAsRadio": false,
+            "compulsory": false,
+            "allowProvidedElsewhere": false,
+            "sortOrder": 8,
+            "allowFutureDate": false,
+            "programStage": {
+                "id": "akI9YIihP5Y"
+            },
+            "dataElement": {
+                "id": "MCxp6vPiT6b"
+            }
+        }
+    ],
+    "programStages": [
+        {
+            "lastUpdated": "2019-12-22T06:40:30.265",
+            "id": "akI9YIihP5Y",
+            "created": "2019-11-28T22:39:56.991",
+            "name": "XX TEST EVENT ALT",
+            "allowGenerateNextVisit": false,
+            "preGenerateUID": false,
+            "publicAccess": "rw------",
+            "openAfterEnrollment": false,
+            "repeatable": false,
+            "remindCompleted": false,
+            "displayGenerateEventBox": true,
+            "generatedByEnrollmentDate": false,
+            "validationStrategy": "ON_COMPLETE",
+            "autoGenerateEvent": true,
+            "hideDueDate": false,
+            "blockEntryForm": false,
+            "enableUserAssignment": false,
+            "minDaysFromStart": 0,
+            "program": {
+                "id": "hJw6Rf6V2EL"
+            },
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "user": {
+                "id": "DXyJmlo9rge"
+            },
+            "notificationTemplates": [],
+            "programStageDataElements": [
+                {
+                    "lastUpdated": "2019-12-22T06:40:30.265",
+                    "id": "R6wgPtvWEun",
+                    "created": "2019-11-29T05:35:47.105",
+                    "displayInReports": true,
+                    "skipSynchronization": false,
+                    "externalAccess": false,
+                    "renderOptionsAsRadio": false,
+                    "allowFutureDate": false,
+                    "compulsory": false,
+                    "allowProvidedElsewhere": false,
+                    "sortOrder": 1,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": false,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "programStage": {
+                        "id": "akI9YIihP5Y"
+                    },
+                    "dataElement": {
+                        "id": "UzrJK6lpRml"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2019-12-22T06:40:30.265",
+                    "id": "LSgxUV6DqBE",
+                    "created": "2019-11-29T05:35:47.105",
+                    "displayInReports": true,
+                    "skipSynchronization": false,
+                    "externalAccess": false,
+                    "renderOptionsAsRadio": false,
+                    "allowFutureDate": false,
+                    "compulsory": true,
+                    "allowProvidedElsewhere": false,
+                    "sortOrder": 2,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": false,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "programStage": {
+                        "id": "akI9YIihP5Y"
+                    },
+                    "dataElement": {
+                        "id": "gfSyMAyxsAj"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2019-12-22T06:40:30.265",
+                    "id": "UB4wWsdcdom",
+                    "created": "2019-11-29T05:35:47.105",
+                    "displayInReports": true,
+                    "skipSynchronization": false,
+                    "externalAccess": false,
+                    "renderOptionsAsRadio": false,
+                    "allowFutureDate": false,
+                    "compulsory": false,
+                    "allowProvidedElsewhere": false,
+                    "sortOrder": 3,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": false,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "programStage": {
+                        "id": "akI9YIihP5Y"
+                    },
+                    "dataElement": {
+                        "id": "doe1hnwq9bG"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2019-12-22T06:40:30.265",
+                    "id": "m3qqi6TAswF",
+                    "created": "2019-11-29T05:35:47.105",
+                    "displayInReports": false,
+                    "skipSynchronization": false,
+                    "externalAccess": false,
+                    "renderOptionsAsRadio": false,
+                    "allowFutureDate": false,
+                    "compulsory": false,
+                    "allowProvidedElsewhere": false,
+                    "sortOrder": 4,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": false,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "programStage": {
+                        "id": "akI9YIihP5Y"
+                    },
+                    "dataElement": {
+                        "id": "ILg4DHMISBc"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2019-12-22T06:40:30.265",
+                    "id": "kFBikk4yxhd",
+                    "created": "2019-11-29T05:35:47.105",
+                    "displayInReports": false,
+                    "skipSynchronization": false,
+                    "externalAccess": false,
+                    "renderOptionsAsRadio": false,
+                    "allowFutureDate": false,
+                    "compulsory": false,
+                    "allowProvidedElsewhere": false,
+                    "sortOrder": 5,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": false,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "programStage": {
+                        "id": "akI9YIihP5Y"
+                    },
+                    "dataElement": {
+                        "id": "si7ryvPK6xx"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2019-12-22T06:40:30.265",
+                    "id": "ECGeo4ArUbl",
+                    "created": "2019-12-22T06:40:30.265",
+                    "displayInReports": false,
+                    "skipSynchronization": false,
+                    "externalAccess": false,
+                    "renderOptionsAsRadio": false,
+                    "allowFutureDate": false,
+                    "compulsory": false,
+                    "allowProvidedElsewhere": false,
+                    "sortOrder": 6,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": false,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "programStage": {
+                        "id": "akI9YIihP5Y"
+                    },
+                    "dataElement": {
+                        "id": "WJmYNM2KuQs"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2019-12-22T06:40:30.265",
+                    "id": "pri0efnkSVq",
+                    "created": "2019-12-22T06:40:30.265",
+                    "displayInReports": false,
+                    "skipSynchronization": false,
+                    "externalAccess": false,
+                    "renderOptionsAsRadio": false,
+                    "allowFutureDate": false,
+                    "compulsory": false,
+                    "allowProvidedElsewhere": false,
+                    "sortOrder": 7,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": false,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "programStage": {
+                        "id": "akI9YIihP5Y"
+                    },
+                    "dataElement": {
+                        "id": "D4iTCSow5w7"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2019-12-22T06:40:30.265",
+                    "id": "EI4d8kwlL4i",
+                    "created": "2019-12-22T06:40:30.265",
+                    "displayInReports": false,
+                    "skipSynchronization": false,
+                    "externalAccess": false,
+                    "renderOptionsAsRadio": false,
+                    "allowFutureDate": false,
+                    "compulsory": false,
+                    "allowProvidedElsewhere": false,
+                    "sortOrder": 8,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": false,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "programStage": {
+                        "id": "akI9YIihP5Y"
+                    },
+                    "dataElement": {
+                        "id": "MCxp6vPiT6b"
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [
+                {
+                    "access": "rwrw----",
+                    "displayName": "Marcos Fernando Costa",
+                    "id": "DXyJmlo9rge",
+                    "userUid": "DXyJmlo9rge"
+                }
+            ],
+            "programStageSections": []
+        }
+    ],
+    "programRuleVariables": [
+        {
+            "created": "2019-12-22T06:42:06.521",
+            "lastUpdated": "2019-12-22T06:42:06.521",
+            "name": "XX Gender",
+            "id": "EhOW2ZOIkQB",
+            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+            "useCodeForOptionSet": false,
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "program": {
+                "id": "hJw6Rf6V2EL"
+            },
+            "dataElement": {
+                "id": "D4iTCSow5w7"
+            }
+        },
+        {
+            "created": "2019-11-29T06:43:38.877",
+            "lastUpdated": "2019-11-29T06:43:38.877",
+            "name": "XX TEST NUMBER",
+            "id": "tBfTKM6Gms4",
+            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+            "useCodeForOptionSet": false,
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "program": {
+                "id": "hJw6Rf6V2EL"
+            },
+            "dataElement": {
+                "id": "gfSyMAyxsAj"
+            }
+        },
+        {
+            "created": "2019-11-29T06:43:15.740",
+            "lastUpdated": "2019-11-29T07:09:47.825",
+            "name": "XX TEST DATE",
+            "id": "xOSxNMzpJOw",
+            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+            "useCodeForOptionSet": false,
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "program": {
+                "id": "hJw6Rf6V2EL"
+            },
+            "dataElement": {
+                "id": "UzrJK6lpRml"
+            }
+        },
+        {
+            "created": "2019-12-22T06:41:37.169",
+            "lastUpdated": "2019-12-22T06:41:37.169",
+            "name": "XX Age In Months",
+            "id": "pM6SaNb3zbF",
+            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+            "useCodeForOptionSet": false,
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "program": {
+                "id": "hJw6Rf6V2EL"
+            },
+            "dataElement": {
+                "id": "WJmYNM2KuQs"
+            }
+        },
+        {
+            "created": "2019-11-29T06:44:05.288",
+            "lastUpdated": "2019-11-29T06:44:05.288",
+            "name": "XX TEST TEXT",
+            "id": "f1qZhqPxIc8",
+            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+            "useCodeForOptionSet": false,
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "program": {
+                "id": "hJw6Rf6V2EL"
+            },
+            "dataElement": {
+                "id": "doe1hnwq9bG"
+            }
+        },
+        {
+            "created": "2019-11-29T06:44:21.898",
+            "lastUpdated": "2019-11-29T06:44:21.898",
+            "name": "XX TEST LONGTEXT",
+            "id": "cUgtyfJFueE",
+            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+            "useCodeForOptionSet": false,
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "program": {
+                "id": "hJw6Rf6V2EL"
+            },
+            "dataElement": {
+                "id": "ILg4DHMISBc"
+            }
+        },
+        {
+            "created": "2019-12-16T07:29:43.040",
+            "lastUpdated": "2019-12-16T07:29:43.040",
+            "name": "XX TEST OPTIONSET",
+            "id": "vUAxjuvHlmN",
+            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+            "useCodeForOptionSet": true,
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "program": {
+                "id": "hJw6Rf6V2EL"
+            },
+            "dataElement": {
+                "id": "si7ryvPK6xx"
+            }
+        },
+        {
+            "created": "2019-12-22T06:41:54.043",
+            "lastUpdated": "2019-12-22T06:41:54.043",
+            "name": "XX Weight",
+            "id": "xbrSXAlQk20",
+            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+            "useCodeForOptionSet": false,
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "program": {
+                "id": "hJw6Rf6V2EL"
+            },
+            "dataElement": {
+                "id": "MCxp6vPiT6b"
+            }
+        }
+    ],
+    "categoryCombos": [
+        {
+            "code": "default",
+            "created": "2011-12-24T12:24:25.203",
+            "lastUpdated": "2016-04-12T20:37:49.126",
+            "name": "default",
+            "id": "bjDvmb4bfuf",
+            "dataDimensionType": "DISAGGREGATION",
+            "publicAccess": "rw------",
+            "skipTotal": false,
+            "userGroupAccesses": [],
+            "translations": [],
+            "userAccesses": [],
+            "categories": [
+                {
+                    "id": "GLevLNI9wkl"
+                }
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "code": "default",
+            "created": "2012-11-21T12:15:18.537",
+            "lastUpdated": "2020-01-10T14:17:23.556",
+            "name": "default",
+            "id": "GLevLNI9wkl",
+            "dataDimensionType": "DISAGGREGATION",
+            "publicAccess": "rw------",
+            "dataDimension": false,
+            "user": {
+                "id": "GOLswS44mh8"
+            },
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": [],
+            "categoryOptions": [
+                {
+                    "id": "xYerKDKCefk"
+                }
+            ]
+        }
+    ],
+    "optionSets": [
+        {
+            "created": "2019-09-05T18:49:03.506",
+            "lastUpdated": "2020-01-13T21:23:47.883",
+            "name": "XX TEST - TEA Optionset",
+            "id": "ymK0GqrfCXF",
+            "publicAccess": "rw------",
+            "version": 5,
+            "valueType": "TEXT",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "user": {
+                "id": "DXyJmlo9rge"
+            },
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": [],
+            "options": [
+                {
+                    "id": "G812rP0BI7L"
+                },
+                {
+                    "id": "RcySj6mc77e"
+                },
+                {
+                    "id": "t4mz3hT4GVe"
+                }
+            ]
+        }
+    ],
+    "options": [
+        {
+            "code": "S1",
+            "created": "2019-09-05T18:49:47.562",
+            "lastUpdated": "2019-09-05T18:49:49.138",
+            "name": "Small",
+            "id": "t4mz3hT4GVe",
+            "sortOrder": 3,
+            "optionSet": {
+                "id": "ymK0GqrfCXF"
+            },
+            "attributeValues": [],
+            "translations": []
+        },
+        {
+            "code": "S2",
+            "created": "2019-09-05T18:49:22.616",
+            "lastUpdated": "2019-09-05T18:49:24.138",
+            "name": "Medium",
+            "id": "G812rP0BI7L",
+            "sortOrder": 1,
+            "optionSet": {
+                "id": "ymK0GqrfCXF"
+            },
+            "attributeValues": [],
+            "translations": []
+        },
+        {
+            "code": "S3",
+            "created": "2019-09-05T18:49:35.192",
+            "lastUpdated": "2019-09-05T18:49:36.720",
+            "name": "Large",
+            "id": "RcySj6mc77e",
+            "sortOrder": 2,
+            "optionSet": {
+                "id": "ymK0GqrfCXF"
+            },
+            "attributeValues": [],
+            "translations": []
+        }
+    ],
+    "programs": [
+        {
+            "lastUpdated": "2019-12-16T06:55:51.181",
+            "id": "hJw6Rf6V2EL",
+            "created": "2019-11-28T22:39:57.077",
+            "name": "XX TEST EVENT ALT",
+            "shortName": "XX Event Alt",
+            "publicAccess": "rw------",
+            "completeEventsExpiryDays": 0,
+            "ignoreOverdueEvents": false,
+            "skipOffline": false,
+            "minAttributesRequiredToSearch": 1,
+            "displayFrontPageList": false,
+            "onlyEnrollOnce": false,
+            "programType": "WITHOUT_REGISTRATION",
+            "accessLevel": "OPEN",
+            "version": 1,
+            "maxTeiCountToReturn": 0,
+            "selectIncidentDatesInFuture": false,
+            "expiryPeriodType": "Daily",
+            "displayIncidentDate": true,
+            "selectEnrollmentDatesInFuture": false,
+            "expiryDays": 3,
+            "useFirstStageDuringRegistration": false,
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "style": {
+                "icon": "circle_large_outline"
+            },
+            "user": {
+                "id": "DXyJmlo9rge"
+            },
+            "programTrackedEntityAttributes": [],
+            "notificationTemplates": [],
+            "translations": [],
+            "organisationUnits": [
+                {
+                    "id": "DiszpKrYNg8"
+                }
+            ],
+            "userGroupAccesses": [],
+            "programSections": [],
+            "attributeValues": [],
+            "programStages": [
+                {
+                    "id": "akI9YIihP5Y"
+                }
+            ],
+            "userAccesses": [
+                {
+                    "access": "rwrw----",
+                    "displayName": "Marcos Fernando Costa",
+                    "id": "DXyJmlo9rge",
+                    "userUid": "DXyJmlo9rge"
+                }
+            ]
+        }
+    ],
+    "programRules": [
+        {
+            "created": "2019-12-16T07:32:22.121",
+            "lastUpdated": "2019-12-22T06:46:51.098",
+            "name": "FF OPTIONSET",
+            "id": "EiLEpBxFbjI",
+            "condition": "d2:hasValue('XX TEST OPTIONSET')",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "program": {
+                "id": "hJw6Rf6V2EL"
+            },
+            "translations": [],
+            "programRuleActions": [
+                {
+                    "id": "bq3OkXzn55H"
+                },
+                {
+                    "id": "HAZxfAT169E"
+                },
+                {
+                    "id": "Thl9cTMlh3l"
+                }
+            ]
+        },
+        {
+            "created": "2019-11-29T07:21:17.645",
+            "lastUpdated": "2019-12-12T17:57:53.147",
+            "name": "FF Text",
+            "id": "WtmqJRjX4z7",
+            "condition": "d2:hasValue('XX TEST TEXT')",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "program": {
+                "id": "hJw6Rf6V2EL"
+            },
+            "translations": [],
+            "programRuleActions": [
+                {
+                    "id": "flBvSMJ5gZ9"
+                },
+                {
+                    "id": "e77FmENeKu7"
+                },
+                {
+                    "id": "NeskO7KK60N"
+                },
+                {
+                    "id": "cdYHRXFUiKS"
+                },
+                {
+                    "id": "DjQ7CkspwIN"
+                },
+                {
+                    "id": "frMQ5i5FiJn"
+                }
+            ]
+        },
+        {
+            "created": "2019-11-29T06:55:22.098",
+            "lastUpdated": "2019-12-12T17:57:16.855",
+            "name": "FF Number",
+            "id": "xYNo0iYPzfA",
+            "condition": "d2:hasValue('XX TEST NUMBER')",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "program": {
+                "id": "hJw6Rf6V2EL"
+            },
+            "translations": [],
+            "programRuleActions": [
+                {
+                    "id": "GIFPeYs6bJy"
+                },
+                {
+                    "id": "k0f34DVRChf"
+                },
+                {
+                    "id": "Dq0YsOwZlaz"
+                },
+                {
+                    "id": "OEqzW2uZ5KG"
+                },
+                {
+                    "id": "lMj6prBmIT4"
+                },
+                {
+                    "id": "xAI4eXsJX7G"
+                },
+                {
+                    "id": "IRgvKqIz4AF"
+                }
+            ]
+        },
+        {
+            "created": "2019-11-29T06:48:48.473",
+            "lastUpdated": "2019-12-12T17:51:07.305",
+            "name": "FF Date",
+            "id": "cadUTK9RwLv",
+            "condition": "d2:hasValue('XX TEST DATE')",
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "program": {
+                "id": "hJw6Rf6V2EL"
+            },
+            "translations": [],
+            "programRuleActions": [
+                {
+                    "id": "d7PHK07noHp"
+                },
+                {
+                    "id": "Ec4RfgogPFb"
+                },
+                {
+                    "id": "S48ou3HZGQE"
+                },
+                {
+                    "id": "mLcSXJHlVWh"
+                },
+                {
+                    "id": "fQYzZZKrecj"
+                }
+            ]
+        }
+    ],
+    "dataElements": [
+        {
+            "lastUpdated": "2019-12-22T06:37:39.168",
+            "id": "D4iTCSow5w7",
+            "created": "2019-12-22T06:37:39.168",
+            "name": "XX TEST Gender",
+            "shortName": "Test Gender",
+            "aggregationType": "NONE",
+            "domainType": "TRACKER",
+            "publicAccess": "rw------",
+            "valueType": "TEXT",
+            "zeroIsSignificant": false,
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "user": {
+                "id": "DXyJmlo9rge"
+            },
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "lastUpdated": "2019-09-05T18:42:28.191",
+            "id": "ILg4DHMISBc",
+            "created": "2019-09-05T18:42:28.191",
+            "name": "XX TEST LONGTEXT",
+            "shortName": "LONGTEXT",
+            "aggregationType": "NONE",
+            "domainType": "TRACKER",
+            "publicAccess": "rw------",
+            "valueType": "LONG_TEXT",
+            "zeroIsSignificant": false,
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "user": {
+                "id": "DXyJmlo9rge"
+            },
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "lastUpdated": "2019-09-05T18:42:57.528",
+            "id": "gfSyMAyxsAj",
+            "created": "2019-09-05T18:42:57.528",
+            "name": "XX TEST NUMBER",
+            "shortName": "NUMBER",
+            "aggregationType": "SUM",
+            "domainType": "TRACKER",
+            "publicAccess": "rw------",
+            "valueType": "NUMBER",
+            "zeroIsSignificant": false,
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "user": {
+                "id": "DXyJmlo9rge"
+            },
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "lastUpdated": "2019-12-22T06:38:04.460",
+            "id": "MCxp6vPiT6b",
+            "created": "2019-12-22T06:36:02.653",
+            "name": "XX TEST Weight",
+            "shortName": "Test Weight",
+            "aggregationType": "SUM",
+            "domainType": "TRACKER",
+            "publicAccess": "rw------",
+            "valueType": "NUMBER",
+            "zeroIsSignificant": false,
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "user": {
+                "id": "DXyJmlo9rge"
+            },
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "lastUpdated": "2019-09-05T18:46:14.929",
+            "id": "doe1hnwq9bG",
+            "created": "2019-09-05T18:46:14.929",
+            "name": "XX TEST TEXT",
+            "shortName": "TEXT",
+            "aggregationType": "NONE",
+            "domainType": "TRACKER",
+            "publicAccess": "rw------",
+            "valueType": "TEXT",
+            "zeroIsSignificant": false,
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "user": {
+                "id": "DXyJmlo9rge"
+            },
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "lastUpdated": "2019-09-05T18:50:35.161",
+            "id": "si7ryvPK6xx",
+            "created": "2019-09-05T18:50:23.640",
+            "name": "XX TEST TEXT OptionSet",
+            "shortName": "TEXT OS",
+            "aggregationType": "NONE",
+            "domainType": "TRACKER",
+            "publicAccess": "rw------",
+            "valueType": "TEXT",
+            "formName": "FN OPTION",
+            "zeroIsSignificant": false,
+            "optionSet": {
+                "id": "ymK0GqrfCXF"
+            },
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "user": {
+                "id": "DXyJmlo9rge"
+            },
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "lastUpdated": "2019-09-05T18:37:29.090",
+            "id": "UzrJK6lpRml",
+            "created": "2019-09-05T18:37:29.090",
+            "name": "XX TEST DATE",
+            "shortName": "DATE",
+            "aggregationType": "SUM",
+            "domainType": "TRACKER",
+            "publicAccess": "rw------",
+            "valueType": "DATE",
+            "zeroIsSignificant": false,
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "user": {
+                "id": "DXyJmlo9rge"
+            },
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "lastUpdated": "2019-12-22T06:37:50.515",
+            "id": "WJmYNM2KuQs",
+            "created": "2019-12-22T06:35:35.373",
+            "name": "XX TEST Age In Months",
+            "shortName": "Test Age in months",
+            "aggregationType": "SUM",
+            "domainType": "TRACKER",
+            "publicAccess": "rw------",
+            "valueType": "NUMBER",
+            "zeroIsSignificant": false,
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "lastUpdatedBy": {
+                "id": "DXyJmlo9rge"
+            },
+            "user": {
+                "id": "DXyJmlo9rge"
+            },
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        }
+    ],
+    "categoryOptionCombos": [
+        {
+            "lastUpdated": "2011-12-24T12:24:25.319",
+            "code": "default",
+            "created": "2011-12-24T12:24:25.319",
+            "name": "default",
+            "id": "HllvX50cXC0",
+            "ignoreApproval": false,
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "translations": [],
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "xYerKDKCefk"
+                }
+            ]
+        }
+    ],
+    "optionGroups": [
+        {
+            "id" : "jjCGmLPBYma",
+            "name" : "XX TEST OPTGROUP &lt; LARGE",
+            "shortName" : "XX OPTGROUP",
+            "optionSet" : {
+                "id" : "ymK0GqrfCXF"
+            },
+            "options" : [
+                {
+                    "id": "t4mz3hT4GVe"
+                },
+                {
+                    "id": "G812rP0BI7L"
+                }
+
+            ]
+        },
+        {
+            "id" : "mVTIwB6hplx",
+            "name" : "ZZ TEST OPTGROUP NORTH-WEST",
+            "shortName" : "ZZ TEST NORTH-WEST",
+            "optionSet" : {
+                "id" : "YAQCmpIGMb0"
+            },
+            "options" : [
+                {
+                    "id": "L6F7w9OR5Cg"
+                },
+                {
+                    "id": "thJcMHEeRoA"
+                }
+            ]
+        }
+    ]
+}

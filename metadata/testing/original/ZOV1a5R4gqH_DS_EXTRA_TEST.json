@@ -1,0 +1,506 @@
+{
+  "date": "2020-02-28T06:38:34.212",
+  "categoryOptions": [
+    {
+      "created": "2011-12-24T12:24:24.149",
+      "lastUpdated": "2016-04-12T20:37:48.414",
+      "name": "default",
+      "id": "xYerKDKCefk",
+      "publicAccess": "rwrw----",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [
+        {
+          "property": "NAME",
+          "locale": "en_GB",
+          "value": "default"
+        }
+      ],
+      "userAccesses": [],
+      "organisationUnits": [],
+      "code": "default",
+      "shortName": "default"
+    }
+  ],
+  "dataElements": [
+    {
+      "lastUpdated": "2020-01-24T00:37:08.664",
+      "id": "RUKoSM54yLp",
+      "created": "2020-01-24T00:37:08.664",
+      "name": "DDS TEXT OPTION",
+      "shortName": "DDS TEXT OPTION",
+      "aggregationType": "NONE",
+      "domainType": "AGGREGATE",
+      "publicAccess": "rw------",
+      "valueType": "TEXT",
+      "zeroIsSignificant": false,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "lastUpdatedBy": {
+        "id": "DXyJmlo9rge"
+      },
+      "user": {
+        "id": "DXyJmlo9rge"
+      },
+      "translations": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "userAccesses": [],
+      "legendSets": [],
+      "aggregationLevels": [],
+      "optionSet": {
+        "id": "ymK0GqrfCXF"
+      }
+    },
+    {
+      "lastUpdated": "2020-01-24T00:36:31.972",
+      "id": "jhKTeCperSK",
+      "created": "2020-01-24T00:36:31.972",
+      "name": "DDS TEXT",
+      "shortName": "DDS TEXT",
+      "aggregationType": "NONE",
+      "domainType": "AGGREGATE",
+      "publicAccess": "rw------",
+      "valueType": "TEXT",
+      "zeroIsSignificant": false,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "lastUpdatedBy": {
+        "id": "DXyJmlo9rge"
+      },
+      "user": {
+        "id": "DXyJmlo9rge"
+      },
+      "translations": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "userAccesses": [],
+      "legendSets": [],
+      "aggregationLevels": []
+    },
+    {
+      "lastUpdated": "2020-01-24T00:28:34.492",
+      "id": "fIGZT7Ba174",
+      "created": "2020-01-24T00:28:34.492",
+      "name": "DDS Number",
+      "shortName": "DDS Number",
+      "aggregationType": "SUM",
+      "domainType": "AGGREGATE",
+      "publicAccess": "rw------",
+      "valueType": "NUMBER",
+      "zeroIsSignificant": false,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "lastUpdatedBy": {
+        "id": "DXyJmlo9rge"
+      },
+      "user": {
+        "id": "DXyJmlo9rge"
+      },
+      "translations": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "userAccesses": [],
+      "legendSets": [],
+      "aggregationLevels": []
+    },
+    {
+      "lastUpdated": "2019-12-11T20:36:55.424",
+      "id": "doPOVk0joJn",
+      "created": "2019-04-08T17:57:53.229",
+      "name": "ADS TEST NEGINT",
+      "shortName": "ADS NEGINT",
+      "aggregationType": "SUM",
+      "domainType": "AGGREGATE",
+      "publicAccess": "rw------",
+      "valueType": "INTEGER_NEGATIVE",
+      "zeroIsSignificant": false,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "lastUpdatedBy": {
+        "id": "DXyJmlo9rge"
+      },
+      "user": {
+        "id": "DXyJmlo9rge"
+      },
+      "translations": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "userAccesses": [],
+      "legendSets": [],
+      "aggregationLevels": []
+    },
+    {
+      "lastUpdated": "2020-01-24T00:37:21.609",
+      "id": "H2VZtGJkOH7",
+      "created": "2020-01-24T00:37:21.609",
+      "name": "DDS YESNO",
+      "shortName": "DDS YESNO",
+      "aggregationType": "SUM",
+      "domainType": "AGGREGATE",
+      "publicAccess": "rw------",
+      "valueType": "BOOLEAN",
+      "zeroIsSignificant": false,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "lastUpdatedBy": {
+        "id": "DXyJmlo9rge"
+      },
+      "user": {
+        "id": "DXyJmlo9rge"
+      },
+      "translations": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "userAccesses": [],
+      "legendSets": [],
+      "aggregationLevels": []
+    },
+    {
+      "lastUpdated": "2020-01-24T00:36:45.980",
+      "id": "GmS3Oizmy20",
+      "created": "2020-01-24T00:36:45.980",
+      "name": "DDS DATE",
+      "shortName": "DDS DATE",
+      "aggregationType": "SUM",
+      "domainType": "AGGREGATE",
+      "publicAccess": "rw------",
+      "valueType": "DATE",
+      "zeroIsSignificant": false,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "lastUpdatedBy": {
+        "id": "DXyJmlo9rge"
+      },
+      "user": {
+        "id": "DXyJmlo9rge"
+      },
+      "translations": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "userAccesses": [],
+      "legendSets": [],
+      "aggregationLevels": []
+    }
+  ],
+  "sections": [
+    {
+      "created": "2020-01-24T00:51:18.811",
+      "lastUpdated": "2020-02-27T21:41:27.820",
+      "name": "DDS TEST S2",
+      "id": "SuKAEjiS6vS",
+      "sortOrder": 2,
+      "showRowTotals": false,
+      "showColumnTotals": true,
+      "lastUpdatedBy": {
+        "id": "DXyJmlo9rge"
+      },
+      "dataSet": {
+        "id": "ZOV1a5R4gqH"
+      },
+      "greyedFields": [],
+      "attributeValues": [],
+      "indicators": [],
+      "translations": [],
+      "dataElements": [
+        {
+          "id": "doPOVk0joJn"
+        },
+        {
+          "id": "RUKoSM54yLp"
+        }
+      ]
+    },
+    {
+      "created": "2020-01-24T00:49:20.849",
+      "lastUpdated": "2020-01-24T00:50:36.411",
+      "name": "DDS TEST S1",
+      "id": "enJngaRTFF2",
+      "sortOrder": 1,
+      "showRowTotals": true,
+      "showColumnTotals": false,
+      "lastUpdatedBy": {
+        "id": "DXyJmlo9rge"
+      },
+      "dataSet": {
+        "id": "ZOV1a5R4gqH"
+      },
+      "greyedFields": [],
+      "attributeValues": [],
+      "indicators": [],
+      "translations": [],
+      "dataElements": [
+        {
+          "id": "fIGZT7Ba174"
+        },
+        {
+          "id": "GmS3Oizmy20"
+        },
+        {
+          "id": "jhKTeCperSK"
+        },
+        {
+          "id": "H2VZtGJkOH7"
+        }
+      ]
+    }
+  ],
+  "dataSets": [
+    {
+      "lastUpdated": "2020-02-05T18:34:38.471",
+      "id": "ZOV1a5R4gqH",
+      "created": "2020-01-24T00:47:20.822",
+      "name": "DS EXTRA TEST",
+      "validCompleteOnly": false,
+      "dataElementDecoration": false,
+      "publicAccess": "rw------",
+      "notifyCompletingUser": false,
+      "noValueRequiresComment": false,
+      "skipOffline": false,
+      "compulsoryFieldsCompleteOnly": false,
+      "fieldCombinationRequired": false,
+      "renderHorizontally": false,
+      "renderAsTabs": false,
+      "mobile": false,
+      "version": 7,
+      "timelyDays": 15,
+      "periodType": "Monthly",
+      "openFuturePeriods": 0,
+      "expiryDays": 0,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "lastUpdatedBy": {
+        "id": "DXyJmlo9rge"
+      },
+      "user": {},
+      "dataSetElements": [
+        {
+          "dataElement": {
+            "id": "GmS3Oizmy20"
+          },
+          "dataSet": {
+            "id": "ZOV1a5R4gqH"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "jhKTeCperSK"
+          },
+          "dataSet": {
+            "id": "ZOV1a5R4gqH"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "RUKoSM54yLp"
+          },
+          "dataSet": {
+            "id": "ZOV1a5R4gqH"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "fIGZT7Ba174"
+          },
+          "dataSet": {
+            "id": "ZOV1a5R4gqH"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "H2VZtGJkOH7"
+          },
+          "dataSet": {
+            "id": "ZOV1a5R4gqH"
+          }
+        },
+        {
+          "dataElement": {
+            "id": "doPOVk0joJn"
+          },
+          "dataSet": {
+            "id": "ZOV1a5R4gqH"
+          }
+        }
+      ],
+      "compulsoryDataElementOperands": [
+      ],
+      "translations": [],
+      "dataInputPeriods": [],
+      "organisationUnits": [
+        {
+          "id": "DiszpKrYNg8"
+        }
+      ],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "indicators": [],
+      "userAccesses": [],
+      "legendSets": [],
+      "shortName": "DS EXTRA"
+    }
+  ],
+  "categoryOptionCombos": [
+    {
+      "lastUpdated": "2011-12-24T12:24:25.319",
+      "created": "2011-12-24T12:24:25.319",
+      "name": "default",
+      "id": "HllvX50cXC0",
+      "ignoreApproval": false,
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "xYerKDKCefk"
+        }
+      ],
+      "code": "default"
+    }
+  ],
+  "categoryCombos": [
+    {
+      "created": "2011-12-24T12:24:25.203",
+      "lastUpdated": "2016-04-12T20:37:49.126",
+      "name": "default",
+      "id": "bjDvmb4bfuf",
+      "dataDimensionType": "DISAGGREGATION",
+      "publicAccess": "rw------",
+      "skipTotal": false,
+      "userGroupAccesses": [],
+      "translations": [],
+      "userAccesses": [],
+      "categories": [
+        {
+          "id": "GLevLNI9wkl"
+        }
+      ],
+      "code": "default"
+    }
+  ],
+  "categories": [
+    {
+      "created": "2012-11-21T12:15:18.537",
+      "lastUpdated": "2020-01-10T14:17:23.556",
+      "name": "default",
+      "id": "GLevLNI9wkl",
+      "dataDimensionType": "DISAGGREGATION",
+      "publicAccess": "rw------",
+      "dataDimension": false,
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [],
+      "userAccesses": [],
+      "categoryOptions": [
+        {
+          "id": "xYerKDKCefk"
+        }
+      ],
+      "code": "default"
+    }
+  ],
+  "optionSets": [
+    {
+      "created": "2019-09-05T18:49:03.506",
+      "lastUpdated": "2020-02-18T23:29:52.339",
+      "name": "XX TEST - TEA Optionset",
+      "id": "ymK0GqrfCXF",
+      "publicAccess": "rw------",
+      "version": 6,
+      "valueType": "TEXT",
+      "lastUpdatedBy": {
+        "id": "DXyJmlo9rge"
+      },
+      "user": {
+        "id": "DXyJmlo9rge"
+      },
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "translations": [],
+      "userAccesses": [],
+      "options": [
+        {
+          "id": "G812rP0BI7L"
+        },
+        {
+          "id": "RcySj6mc77e"
+        },
+        {
+          "id": "t4mz3hT4GVe"
+        },
+        {
+          "id": "f7hSf6H4UDg"
+        }
+      ]
+    }
+  ],
+  "options": [
+    {
+      "code": "S1",
+      "created": "2019-09-05T18:49:47.562",
+      "lastUpdated": "2019-09-05T18:49:49.138",
+      "name": "Small",
+      "id": "t4mz3hT4GVe",
+      "sortOrder": 3,
+      "optionSet": {
+        "id": "ymK0GqrfCXF"
+      },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "S2",
+      "created": "2019-09-05T18:49:22.616",
+      "lastUpdated": "2019-09-05T18:49:24.138",
+      "name": "Medium",
+      "id": "G812rP0BI7L",
+      "sortOrder": 1,
+      "optionSet": {
+        "id": "ymK0GqrfCXF"
+      },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "TEST",
+      "created": "2020-02-18T23:29:51.420",
+      "lastUpdated": "2020-02-18T23:29:51.799",
+      "name": "http://android2.dhis2.org:8080",
+      "id": "f7hSf6H4UDg",
+      "sortOrder": 4,
+      "optionSet": {
+        "id": "ymK0GqrfCXF"
+      },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "S3",
+      "created": "2019-09-05T18:49:35.192",
+      "lastUpdated": "2019-09-05T18:49:36.720",
+      "name": "Large",
+      "id": "RcySj6mc77e",
+      "sortOrder": 2,
+      "optionSet": {
+        "id": "ymK0GqrfCXF"
+      },
+      "attributeValues": [],
+      "translations": []
+    }
+  ]
+}
