@@ -7,10 +7,8 @@ services:
       POSTGRES_USER: dhis
       POSTGRES_DB: dhis2
       POSTGRES_PASSWORD: dhis
-    volumes:
-    - ./db/init_33_7.sql:/docker-entrypoint-initdb.d/init.sql
   web:
-    image: dhis2/core:2.33.7
+    image: dhis2/core:2.34.4
     volumes:
     - ./config/dhis2_home/dhis.conf:/DHIS2_home/dhis.conf
     environment:
